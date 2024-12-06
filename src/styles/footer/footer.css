@@ -1,0 +1,127 @@
+.footer-container {
+  width: 100%;
+  min-height: 560px;
+  display: flex;
+  flex-direction: column;
+  background-color: var(--dark-blue);
+}
+
+.top-section__footer-container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  gap: 32px 0;
+  padding: 45px 10px;
+  border-bottom: 1px solid var(--stroke);
+}
+
+.top-section__text-container {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 24px 0;
+  color: var(--white);
+}
+
+.top-section__text-container > h1 {
+  font-size: 36px;
+  font-weight: 600;
+}
+
+.top-section__text-container > p {
+  font-size: 18px;
+  text-align: center;
+}
+
+.footer-input-container {
+  display: flex;
+  gap: 0 13px;
+}
+
+.email-input {
+  width: 282px;
+  height: 42px;
+  padding: 10px 16px;
+  border-radius: 4px;
+  outline: none;
+  border: none;
+}
+
+.subscribe-button {
+  width: 142px;
+  height: 42px;
+  margin: 0;
+  border-radius: 4px;
+  border: none;
+  color: var(--white);
+  font-size: 16px;
+  font-weight: 500;
+  background-color: var(--blue-button);
+}
+
+.last-section__footer-container {
+  width: 80%;
+  min-height: 205px;
+  margin: 0 auto;
+  margin-top: 50px;
+  margin-bottom: 70px;
+  display: grid;
+  padding: 0 15px;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.logo-socialMedia-container {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  gap: 32px 0;
+}
+
+.socialMedia-container {
+  display: flex;
+  gap: 0 16px;
+}
+
+.column-container {
+  width: 90%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 12px 0;
+  color: var(--white);
+  font-size: 16px;
+}
+
+.column-container > h1 {
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.socialMedia-button {
+  border: none;
+  background-color: transparent;
+}
+
+@media screen and (max-width: 767px) {
+  .footer-input-container {
+    flex-direction: column;
+    gap: 13px 0;
+    align-items: center;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .last-section__footer-container {
+    width: 80%;
+    min-height: 205px;
+    margin: 50px 0 70px 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px 0;
+  }
+}

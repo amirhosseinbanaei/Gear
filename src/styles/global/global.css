@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+@import url('/src/styles/global/variables.css');
+@import url('/src/styles/header/header.css');
+@import url('/src/styles/statics/statics.css');
+@import url('/src/styles/cards/cards.css');
+@import url('/src/styles/testimonial/testimonial.css');
+@import url('/src/styles/footer/footer.css');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+* button:hover{
+  cursor: pointer;
+}
+
+::-webkit-scrollbar {
+  width: 12px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: none;
+  background:none;
+  background: inherit;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #0086d6;
+  border-radius: 10px;
+}
+
+.base-container {
+  width: 1140px;
+  height: auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 50px 30px;
+}
+
+@media screen and (max-width: 767px) {
+  .base-container {
+    width: 100%;
+    height: auto;
+    padding: 0 30px;
+    grid-template-columns: 1fr;
+    gap: 40px 0;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1200px) {
+  .base-container {
+    width: 100%;
+    justify-items: center;
+    justify-content: center;
+    height: auto;
+    padding: 0 20px;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px 20px;
+  }
+}

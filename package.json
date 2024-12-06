@@ -1,0 +1,12 @@
+{
+  "name": "1.-landing-page-with-html-and-css",
+  "version": "1.0.0",
+  "description": "",
+  "main": "landing-page.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Amir Hossein Banaei",
+  "license": "ISC"
+}
